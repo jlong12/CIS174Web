@@ -1,0 +1,38 @@
+﻿
+@model Week2Assignment.Models.PersonalDetailsModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Personal Details</title>
+</head>
+<body>
+    <h1>Personal Details</h1>
+    <div> 
+        @Html.LabelFor(m => m.firstName)
+        @Html.TextBoxFor(m => m.firstName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.lastName)
+        @Html.TextBoxFor(m => m.lastName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.age)
+        @Html.TextBoxFor(m => m.age)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.GenderName)
+        @Html.TextBoxFor(m => m.GenderName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.major)
+        @Html.TextBoxFor(m => m.major)
+    </div>
+
+</body>
+</html>
