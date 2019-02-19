@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Create Your Profile</h2>
+
+<form name="myForm" action="" method="post">
+    First Name:
+    <input type="text" name="firstname" placeholder="First Name" required><br><br>
+
+    Last Name:
+    <input type="text" name="lastname" placeholder="Last Name" required><br><br>
+
+    Gender:
+    <input type="text" name="gender" placeholder="Gender"><br><br>
+
+    Email:
+    <input type="email" name="email" placeholder="Email" required><br><br>
+
+    Phone Number (XXX-XXX-XXX) format:
+    <input type="text" name="phonenumber" placeholder="Phone Number" pattern="^\d{3}-\d{3}-\d{4}$"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+
